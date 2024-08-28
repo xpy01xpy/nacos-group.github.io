@@ -8,27 +8,31 @@ export const SITE_DESCRIPTION = 'Welcome to my website!';
 export const TOPBAR = {
     "text": "8月2日（周五）开源沙龙首个AI原生应用架构专场 | 上海站 ，欢迎报名！",
     "mobileText": "8月2日（周五）开源沙龙首个AI原生应用架构专场 | 上海站 ，欢迎报名！",
-    "link": "https://summit.aliyun.com/cloudnative2024_developer_shanghai",
+    "link": "https://summit.aliyun.com/cloudnative2024_developer_shanghai?spm=5176.20960838.0.0.7802305eyqMQf8",
     "target": "_blank",
     "display": false
 }
 export const MEDIARESOURCE = [
     {
-        src: "https://cloud.video.taobao.com/vod/play/REFkazc0bXZaVE82emRHbklyTEdsNjFUYnBNSkd6cmpoU0U5cG9KRWtZQzZQZWw1SnpKVVVCTlh4OVFON0V5UUVMUDduY1RJak82VE1sdXdHTjNOaHc9PQ",
-        cover: 'https://img.alicdn.com/imgextra/i2/O1CN01mZMLGh1WIsTB2WOEB_!!6000000002766-0-tps-2516-1282.jpg'
+        "key": "1",
+        "src": "https://cloud.video.taobao.com/vod/play/REFkazc0bXZaVE82emRHbklyTEdsNjFUYnBNSkd6cmpoU0U5cG9KRWtZQzZQZWw1SnpKVVVCTlh4OVFON0V5UUVMUDduY1RJak82VE1sdXdHTjNOaHc9PQ",
+        "cover": "https://img.alicdn.com/imgextra/i2/O1CN01mZMLGh1WIsTB2WOEB_!!6000000002766-0-tps-2516-1282.jpg "
     },
     {
-        src: "https://cloud.video.taobao.com/vod/play/REFkazc0bXZaVE82emRHbklyTEdsMWppZ21TWGh4TDE/U2FmT3I2OU9yZTZQZWw1SnpKVVVCTlh4OVFON0V5UUVMUDduY1RJak82VE1sdXdHTjNOaHc9PQ",
-        cover: 'https://img.alicdn.com/imgextra/i2/O1CN01S9Q8mE1FJvunXlzc2_!!6000000000467-0-tps-2296-1164.jpg'
+        "key": "2",
+        "src": "https://cloud.video.taobao.com/vod/play/REFkazc0bXZaVE82emRHbklyTEdsMWppZ21TWGh4TDE/U2FmT3I2OU9yZTZQZWw1SnpKVVVCTlh4OVFON0V5UUVMUDduY1RJak82VE1sdXdHTjNOaHc9PQ",
+        "cover": "https://img.alicdn.com/imgextra/i2/O1CN01S9Q8mE1FJvunXlzc2_!!6000000000467-0-tps-2296-1164.jpg"
     },
     {
-        src: "https://cloud.video.taobao.com/vod/play/REFkazc0bXZaVE82emRHbklyTEdsMERLOHRmWmdQR1Ywcjl5dlM2Nk1YSzZQZWw1SnpKVVVCTlh4OVFON0V5UUVMUDduY1RJak82VE1sdXdHTjNOaHc9PQ",
-        cover: "https://img.alicdn.com/imgextra/i2/O1CN01MOLx6f1k1qMPncU8j_!!6000000004624-0-tps-2552-1158.jpg"
+        "key": "3",
+        "src": "https://cloud.video.taobao.com/vod/play/REFkazc0bXZaVE82emRHbklyTEdsMERLOHRmWmdQR1Ywcjl5dlM2Nk1YSzZQZWw1SnpKVVVCTlh4OVFON0V5UUVMUDduY1RJak82VE1sdXdHTjNOaHc9PQ",
+        "cover": "https://img.alicdn.com/imgextra/i2/O1CN01MOLx6f1k1qMPncU8j_!!6000000004624-0-tps-2552-1158.jpg"
     },
     {
-        src: "https://cloud.video.taobao.com/vod/play/REFkazc0bXZaVE82emRHbklyTEdsNFFUMXFoNnp2NXBPaEFUNFNDYUVRRzZQZWw1SnpKVVVCTlh4OVFON0V5UUVMUDduY1RJak82VE1sdXdHTjNOaHc9PQ",
-        cover: "https://img.alicdn.com/imgextra/i1/O1CN01fkLmjc1n7HuqYQst1_!!6000000005042-0-tps-2300-1166.jpg",
-    },
+        "key": "4",
+        "src": "https://cloud.video.taobao.com/vod/play/REFkazc0bXZaVE82emRHbklyTEdsNFFUMXFoNnp2NXBPaEFUNFNDYUVRRzZQZWw1SnpKVVVCTlh4OVFON0V5UUVMUDduY1RJak82VE1sdXdHTjNOaHc9PQ",
+        "cover": "https://img.alicdn.com/imgextra/i1/O1CN01fkLmjc1n7HuqYQst1_!!6000000005042-0-tps-2300-1166.jpg"
+    }
 ];
 
 // 文档根据版本区分的提示banner
