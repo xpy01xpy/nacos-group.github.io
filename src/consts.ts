@@ -6,11 +6,11 @@ export const SITE_DESCRIPTION = 'Welcome to my website!';
 
 // 吊顶提示文案
 export const TOPBAR = {
-    "text": "8月2日（周五）开源沙龙首个AI原生应用架构专场 | 上海站 ，欢迎报名！",
-    "mobileText": "8月2日（周五）开源沙龙首个AI原生应用架构专场 | 上海站 ，欢迎报名！",
-    "link": "https://summit.aliyun.com/cloudnative2024_developer_shanghai?spm=5176.20960838.0.0.7802305eyqMQf8",
+    "text": "新趋势、新开源、新实践｜云栖大会 AI 原生应用架构专场邀您参会",
+    "mobileText": "新趋势、新开源、新实践｜云栖大会 AI 原生应用架构专场邀您参会",
+    "link": "https://nacos.io/blog/nacos-gvr7dx_awbbpb_yuni9sly3l3m6xm9/?source=activity/ ",
     "target": "_blank",
-    "display": false
+    "display": true
 }
 export const MEDIARESOURCE = [
     {
