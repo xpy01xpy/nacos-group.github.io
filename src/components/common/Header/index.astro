@@ -132,9 +132,7 @@ let height,
 </script>
 
 <script>
-  //cnpilot
   function addCopilot() {
-    //cnpilot
     const copilotJSScript = document.createElement("script");
     copilotJSScript.type = "text/javascript";
     copilotJSScript.src = "https://g.alicdn.com/cm-design/copilot-booter/0.0.26/copilot-booter.js";
@@ -166,11 +164,26 @@ let height,
     });
     document.body.append(copilotJSScript);
   }
-  addCopilot();
-  document.addEventListener("astro:page-load", function () {
-    if (window.CNPilot) window.CNPilot.unmounted();
+
+  let htmlWidthInRem = 100;
+  try {
+    const htmlElement = document.documentElement;
+    const computedStyle = window.getComputedStyle(htmlElement);
+    const rootFontSize = parseFloat(computedStyle.fontSize);
+    const htmlWidthInPixels = htmlElement.clientWidth;
+    htmlWidthInRem = htmlWidthInPixels / rootFontSize;
+  } catch(err) {
+    console.info('err', err);
+  };
+  // 30rem
+  if(htmlWidthInRem > 30) {
     addCopilot();
-  });
+
+    document.addEventListener("astro:page-load", function () {
+      if (window.CNPilot) window.CNPilot.unmounted();
+      addCopilot();
+    });
+  };
 </script>
 
 <script>
