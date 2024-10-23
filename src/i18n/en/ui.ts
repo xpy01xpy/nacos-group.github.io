@@ -48,6 +48,7 @@ export default {
 	'commmon.footer.actions.enterprise': 'Enterprise',
 	'commmon.footer.actions.mse': 'Cloud Service MSE',
 	'commmon.footer.actions.edas': 'Cloud Service EDAS',
+	'commmon.footer.friend.link': 'Friend Link',
 	'commmon.actions.download': 'Download',
 
 	'home.title': 'Nacos Website | Nacos Registration Configuration Center | Nacos Download | Nacos Official Community',

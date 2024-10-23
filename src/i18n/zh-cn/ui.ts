@@ -47,6 +47,7 @@ export default {
 	'commmon.footer.actions.enterprise': '企业版',
 	'commmon.footer.actions.mse': '云服务 MSE',
 	'commmon.footer.actions.edas': '云服务 EDAS',
+	'commmon.footer.friend.link': '友情链接',
 	'commmon.actions.download': '下载',
 
 	'home.title': 'Nacos官网| Nacos 配置中心 | Nacos 下载| Nacos 官方社区',
