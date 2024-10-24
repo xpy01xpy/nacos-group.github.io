@@ -1,5 +1,6 @@
 import DocsMenu from "./DocsMenu.astro";
 import CommunityMenu from "./CommunityMenu.astro";
+import Resources from "./Resources.astro";
 
 export default [
   {
@@ -23,24 +24,14 @@ export default [
     activePath: ["/cloud"],
   },
   {
-    label: "社区",
+    label: "资源",
     translations: {
-      en: "COMMUNITY",
+      en: "RESOURCES",
     },
     trigger: "hover",
-    slot: CommunityMenu,
+    slot: Resources,
     position: "absolute",
-    relativePosition: 'page',
-    activePath: ["/news", "/activity", "/blog", "/docs/ebook/", "/download"],
-  },
-  {
-    label: "博客",
-    translations: {
-      en: "BLOG",
-    },
-    trigger: "click",
-    target: "_self",
-    route: "/blog/",
+    activePath: ["/news", "/activity", "/blog", "/docs/ebook/", "/download", '/blog', ],
   },
   {
     label: "下载",
